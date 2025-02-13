@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Pink Hero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-mask {
+            --mask:
+                radial-gradient(34.99px at 50% calc(100% - 48px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+                radial-gradient(34.99px at 50% calc(100% + 18px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+            -webkit-mask: var(--mask);
+                    mask: var(--mask);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Hero Section -->
+    <section class="hero-mask bg-pink-500 min-h-[600px] flex items-center pt-20 pb-40">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-pink-900 mb-6">
+                    Embrace Your Inner Glow
+                </h1>
+                <p class="text-xl text-pink-800 mb-8">
+                    Discover the perfect blend of beauty and wellness crafted just for you.
+                </p>
+                <div class="space-x-4">
+                    <a href="#" class="bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-700 transition duration-300">
+                        Explore Now
+                    </a>
+                    <a href="#" class="border-2 border-pink-600 text-pink-900 px-8 py-3 rounded-full hover:bg-pink-100 transition duration-300">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 text-center">
+                    <img src="https://picsum.photos/400/300?random=1" alt="Feature" class="rounded-2xl mb-6 shadow-lg">
+                    <h3 class="text-2xl font-bold text-pink-900 mb-4">Personalized Care</h3>
+                    <p class="text-pink-800">Tailored solutions for your unique beauty needs and preferences.</p>
+                </div>
+                <div class="p-6 text-center">
+                    <img src="https://picsum.photos/400/300?random=2" alt="Feature" class="rounded-2xl mb-6 shadow-lg">
+                    <h3 class="text-2xl font-bold text-pink-900 mb-4">Premium Products</h3>
+                    <p class="text-pink-800">Curated collection of high-quality, natural ingredients.</p>
+                </div>
+                <div class="p-6 text-center">
+                    <img src="https://picsum.photos/400/300?random=3" alt="Feature" class="rounded-2xl mb-6 shadow-lg">
+                    <h3 class="text-2xl font-bold text-pink-900 mb-4">Expert Guidance</h3>
+                    <p class="text-pink-800">Professional advice from our experienced beauty specialists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="bg-pink-50 py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <img src="https://picsum.photos/100/100?random= 4" alt="Customer" class="rounded-full mx-auto mb-6">
+                <blockquote class="text-2xl text-pink-900 font-light mb-4">
+                    "A transformative experience that redefined my self-care routine. Truly exceptional service!"
+                </blockquote>
+                <p class="font-bold text-pink-800">- Sarah Johnson</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-pink-900 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6">Ready to Begin Your Journey?</h2>
+            <p class="text-xl mb-8">Join thousands of satisfied customers today.</p>
+            <a href="#" class="bg-white text-pink-900 px-8 py-3 rounded-full hover:bg-pink-100 transition duration-300">
+                Get Started Now
+            </a>
+        </div>
+    </section>
+</body>
+</html>
